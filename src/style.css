@@ -1,0 +1,38 @@
+*{
+  font-family: poppins;
+}
+
+.navbar-nav {
+  flex-direction: row;
+}
+
+.navbar-nav .form-inline {
+  display: flex;
+  align-items: center;
+}
+
+button.navbar-toggler {
+  margin-left: auto;
+}
+
+button.navbar-toggler + .navbar-collapse {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.flashcard-container {
+  margin-bottom: 1rem;
+}
+/* FlashcardList.css */
+
+.flashcard-item {
+  height: 150px; /* Ensure all cards have the same height */
+}
+
+.button-container {
+  margin-top: 100px;
+}
+
+.button-spacing {
+  margin-right: 10px;
+}
